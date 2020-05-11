@@ -381,7 +381,7 @@ void show_menu(HashTable* head) {
 		way = ReadInt(1, 2, "1 - для заповнення випадковими значеннями\n2 - для вводу користувачем\n");
 		if (way == 1) {
 			for (int i = 0; i < input_size; ++i) {
-				char* keyword = randomString(rand()%10);
+				char* keyword = randomString(1 + rand()%10);
 				ht_set(head, keyword, rand() % 100, rand() % 100);
 			}
 		}
