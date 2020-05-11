@@ -45,11 +45,21 @@ int main() {
 
 	return 0;
 }
-
+// мультиплікаційна функція
 unsigned int hash(const char* key, int ht_size) {
-	const double а = 0.6180339887; // число Кнута
-	double i; // ціла частина поділу дійсного числа
-	return (ht_size * modf((int)key * а, &i));
+	/* This is the djb2 string hash function */
+
+	unsigned int result = 5381;
+	unsigned char* p;
+
+	p = (unsigned char*)key;
+
+	while (*p != '\0') {
+		result = (result << 5) + result + *p;
+		++p;
+	}
+
+	return result % ht_size;
 }
 
 Node* ht_create_node(HashTable* hashtable, const char* key, const float real, float imag) {

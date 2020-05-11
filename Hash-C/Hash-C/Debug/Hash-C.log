@@ -1,21 +1,20 @@
 ﻿  Source.c
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(52,44): warning C4244: 'return': conversion from 'double' to 'unsigned int', possible loss of data
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(97,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(131,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(135,57): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(156,22): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(187,45): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(210,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(228,38): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(256,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(284,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(300,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(300,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(300,11): message : the missing variadic argument 2 is required by format string '%c'
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(300,11): message : this argument is used as a buffer size
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(363,13): warning C4098: 'show_menu': 'void' function returning a value
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(375,39): warning C4244: 'function': conversion from 'int' to 'const float', possible loss of data
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(375,53): warning C4244: 'function': conversion from 'int' to 'const float', possible loss of data
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(458,10): warning C4098: 'show_menu': 'void' function returning a value
-C:\Users\kot12\source\repos\Hash-C\Hash-C\Source.c(214): warning C4715: 'ht_del': not all control paths return a value
-  Hash-C.vcxproj -> C:\Users\kot12\source\repos\Hash-C\Debug\Hash-C.exe
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(107,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(141,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(145,57): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(166,22): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(197,45): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(220,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(238,38): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(266,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(294,23): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(310,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(310,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(310,11): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(310,11): message : this argument is used as a buffer size
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(373,13): warning C4098: 'show_menu': 'void' function returning a value
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(385,39): warning C4244: 'function': conversion from 'int' to 'const float', possible loss of data
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(385,53): warning C4244: 'function': conversion from 'int' to 'const float', possible loss of data
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(468,10): warning C4098: 'show_menu': 'void' function returning a value
+C:\Users\kot12\source\repos\hash_folder\Hash-C\Hash-C\Source.c(224): warning C4715: 'ht_del': not all control paths return a value
+  Hash-C.vcxproj -> C:\Users\kot12\source\repos\hash_folder\Hash-C\Debug\Hash-C.exe
