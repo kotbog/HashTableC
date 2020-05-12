@@ -47,19 +47,14 @@ int main() {
 }
 // мультиплікаційна функція
 unsigned int hash(const char* key, int ht_size) {
-	/* This is the djb2 string hash function */
-
-	unsigned int result = 5381;
-	unsigned char* p;
-
-	p = (unsigned char*)key;
-
-	while (*p != '\0') {
-		result = (result << 5) + result + *p;
-		++p;
-	}
-
-	return result % ht_size;
+	int r = 16,  // число видобутих середніх двійкових цифр 
+		sqr = 0,  // квадрат 
+		shift;  // величина зсуву на задане число двійкових цифр 
+	for (int i = 0, p = 2; i < strlen(key); i++, p *= p) {
+		sqr += key[i] * p;
+	};
+	shift = (32 - r) / 2;
+	return ((sqr >> shift) & 0xffff) % ht_size;
 }
 
 Node* ht_create_node(HashTable* hashtable, const char* key, const float real, float imag) {
@@ -381,7 +376,7 @@ void show_menu(HashTable* head) {
 		way = ReadInt(1, 2, "1 - для заповнення випадковими значеннями\n2 - для вводу користувачем\n");
 		if (way == 1) {
 			for (int i = 0; i < input_size; ++i) {
-				char* keyword = randomString(1 + rand()%10);
+				char* keyword = randomString(3 + rand()%10);
 				ht_set(head, keyword, rand() % 100, rand() % 100);
 			}
 		}
